@@ -23,7 +23,7 @@
                 </div>
             <?php else : ?>
                 <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
-                    <button type="button" class="btn btn-outline-primary me-2">Login</button>
+                    <a href="login.php" class="btn btn-outline-primary me-2">Login</a>
                 </form>
             <?php endif ?>
         </div>
