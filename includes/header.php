@@ -11,21 +11,6 @@
                 <li><a href="index.php" class="nav-link px-2 link-secondary">Home</a></li>
                 <li><a href="products.php" class="nav-link px-2 link-dark">Web shop</a></li>
             </ul>
-
-            <?php if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == true) : ?>
-                <div class="dropdown text-end">
-                    <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
-                        <img src="https://github.com/mdo.png" alt="mdo" width="32" height="32" class="rounded-circle">
-                    </a>
-                    <ul class="dropdown-menu text-small" aria-labelledby="dropdownUser1" style="">
-                        <li><a class="dropdown-item" href="#">Sign out</a></li>
-                    </ul>
-                </div>
-            <?php else : ?>
-                <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
-                    <a href="login.php" class="btn btn-outline-primary me-2">Login</a>
-                </form>
-            <?php endif ?>
         </div>
     </div>
 </header>
